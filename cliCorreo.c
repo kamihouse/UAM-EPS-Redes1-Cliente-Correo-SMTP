@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
     struct sockaddr_in serv_addr;
     struct hostent *server;
     char sender[256], data[1024], data1[256];
-    char buffer[256], entrada[256], descripcion[256];
+    char buffer[1024], entrada[256], descripcion[256];
     char *ordUser, *ordName;
 
     if ((argv[1]) == NULL){

@@ -11,7 +11,7 @@
  * Author.....: Thiago Pereira Rosa	(thiago.pereirarosa@estudiante.uam.es)
  *              Isaac Gonzalez Gonzalez	(isaac.gonzalez@estudiante.uam.es)
  *
- * Implementación de un cliente sencillo de correo.
+ * Implementación de un cliente sencillo de correo usando SMTP y Telnet.
  * Created on 20 de Novembro de 2012, 21:27
  *************************************************************************** */
 

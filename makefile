@@ -6,13 +6,13 @@
 #
 # Proyecto...: Redes-3213-Practica2B
 # File.......: makefile
-# Link Git...: 
+# Link Git...: https://github.com/kamihouse/Cliente-Correo-SMTP
 #
 # Author.....: Thiago Pereira Rosa	(thiago.pereirarosa@estudiante.uam.es)
 #              Isaac Gonzalez Gonzalez	(isaac.gonzalez@estudiante.uam.es)
 #
 # Implementación de un cliente sencillo de correo.
-# Created on 22 de Novembro de 2012, 21:27
+# Created on 20 de Novembro de 2012, 21:27
 # ************************************************************************** */
 
 # banderas de compilacion (PUEDE SER UTIL CAMBIARLAS)
@@ -36,10 +36,10 @@ EXEC_SOURCES = $(shell grep -l "^int main" $(SOURCES) | xargs)
 EXECS = $(shell echo $(EXEC_SOURCES) | sed -e 's:\.c[p]*::g')
 DEPS = $(shell echo $(SOURCES) | sed -e 's:\.c[p]*:\.d:g')
 
-all:	mail
+all:	cliCorreo
 
 # las dependencias (CAMBIA PARA CADA PRACTICA)
-mail:	main.o
+cliCorreo: cliCorreo.o
 
 # receta para hacer un .d (dependencias automaticas de tipo .h para tus .o)
 %.d : %.c

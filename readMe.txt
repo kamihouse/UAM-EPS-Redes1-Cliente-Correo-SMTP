@@ -29,7 +29,7 @@
 
 1) Cómo Ejecutar:
 
-    - Ejecutar el servidor con el comando './cliCorreo' con 1º y 2º Argumentos.
+    - Ejecutar el cliente con el comando './cliCorreo' con 1º y 2º Argumentos.
         - 1º Argumento: Destinatario, Ej -> usuario@localhost
         - 2º Argumento: Asunto
         - Informe el contenido del mensaje

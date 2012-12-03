@@ -17,6 +17,8 @@
 
 1) Archivos:
 
+    - uuencode
+    - mime.types
     - cliCorreo.c
     - makefile
     - readMe.txt
@@ -29,8 +31,13 @@
 
 1) Cómo Ejecutar:
 
-    - Ejecutar el cliente con el comando './cliCorreo' con 1º y 2º Argumentos.
-        - 1º Argumento: Destinatario, Ej -> usuario@localhost
+    - Ejecutar el cliente con el comando './cliCorreo' con 1º, 2º y 3º Argumentos.
+        - 1º Argumento: Remitente, Ej -> usuario@localhost
+        - 2º Argumento: Destinatario, Ej -> usuario@localhost
         - 2º Argumento: Asunto
+
+        - Informe el Nombre del Adjunto
+            - El archivo deve estar el no mismo fichero de la aplicacion.
+
         - Informe el contenido del mensaje
             - Para finalizar la mensaje informa un punto (.) y pulsa enter

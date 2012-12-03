@@ -29,7 +29,7 @@
     - Ejecute el comando 'make' en el terminal.
     - Espere a compilar todos los archivos.
 
-1) Cómo Ejecutar:
+3) Cómo Ejecutar:
 
     - Ejecutar el cliente con el comando './cliCorreo' con 1º, 2º y 3º Argumentos.
         - 1º Argumento: Remitente, Ej -> usuario@localhost
